@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.h1 {
+  font-size: 5rem;
+  margin: 2.5rem 0;
+}
+
+.p {
+  font-size: 2.5rem;
+}
