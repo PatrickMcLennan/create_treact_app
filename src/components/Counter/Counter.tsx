@@ -1,12 +1,14 @@
 import React, { useState, type FC } from 'react';
 import './counter.scss';
 
+type Props = {};
+
 enum Direction {
   INCREMENT = 'INCREMENT',
   DECREMENT = 'DECREMENT',
 }
 
-export const Counter: FC = () => {
+export const Counter: FC<Props> = () => {
   const [count, setCount] = useState<number>(0);
 
   const changeCount = (direction: Direction) =>
