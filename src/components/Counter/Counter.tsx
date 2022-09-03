@@ -1,4 +1,4 @@
-import React, { useState, useCallback, MouseEvent, FC } from 'react';
+import React, { useState, useCallback, FC } from 'react';
 import './counter.scss';
 
 enum Direction {
@@ -9,7 +9,7 @@ enum Direction {
 export const Counter: FC = () => {
   const [count, setCount] = useState<number>(0);
 
-  const clickCallback = useCallback((e: MouseEvent<HTMLButtonElement>): void => {
+  const clickCallback = useCallback((e): void => {
     const newDirection = e?.target?.getAttribute?.(`data-direction`);
     if (!newDirection) return;
     else
