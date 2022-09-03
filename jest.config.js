@@ -5,5 +5,6 @@ module.exports = {
   transform: {
     '.+\\.(css|styl|less|sass|scss)$': 'jest-css-modules-transform',
     '\\.(png|jpg|jpeg)$': 'jest-file-loader',
+    '^.+\\.(t|j)sx?$': ['@swc/jest'],
   },
 };

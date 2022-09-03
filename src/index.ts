@@ -14,4 +14,4 @@ function showError() {
 
 const ROOT = document?.querySelector?.(`#ROOT`);
 if (!ROOT || !ReactDOM?.render) showError();
-else ReactDOM.render(App(), ROOT);
+else ReactDOM.render(App({}), ROOT);
