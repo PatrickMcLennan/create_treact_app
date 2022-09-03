@@ -1,4 +1,4 @@
-import React, { useState, useCallback, FC } from 'react';
+import React, { useState, type FC } from 'react';
 import './counter.scss';
 
 enum Direction {
@@ -9,14 +9,14 @@ enum Direction {
 export const Counter: FC = () => {
   const [count, setCount] = useState<number>(0);
 
-  const clickCallback = useCallback((e): void => {
+  const clickCallback = (e) => {
     const newDirection = e?.target?.getAttribute?.(`data-direction`);
     if (!newDirection) return;
     else
       return setCount((prevCount) =>
         newDirection === Direction.INCREMENT ? prevCount + 1 : prevCount - 1
       );
-  }, []);
+  };
 
   return (
     <section className="counter">
