@@ -1,7 +1,7 @@
 {
-  "name": "create_treact_app",
+  "name": "react_scaffold",
   "version": "1.0.0",
-  "description": "",
+  "description": "A batteries-included but easy to modify TypeScript & React SPA development environment",
   "main": "index.js",
   "scripts": {
     "jest": "jest",

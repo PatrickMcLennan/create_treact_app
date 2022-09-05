@@ -1,8 +1,8 @@
-# create-treact-app
+# react_scaffold
 
 ## A batteries-included but easy to modify TypeScript & React SPA development environment.
 
-`create-treact-app` is similar to `create-react-app` and provides a starting point for new React applications. Some things included with `create-treact-app`, and some things we do differently than `create-react-app`:<br /><br />
+`react_scaffold` is similar to `create-react-app` and provides a starting point for new React applications. Some things included with `react_scaffold`, and some things we do differently than `create-react-app`:<br /><br />
 
 - A working webpack configuration that can handle local development and dev + prod builds.
 - `jest` and `@testing-library/react` configurations
@@ -12,7 +12,7 @@
   <br /><br />
 
 **TL;DR**
-Within an optional Docker container `create-treact-app` gives you testing, a local development server and dev + prod builds for React SPAs with a fast and easy to access toolchain. If you want a working no-frills framework for a prototype or if you're starting a larger SPA and think you'll eventually need to eject from CRA, then `create-treact-app` might be a good choice.
+Within an optional Docker container `react_scaffold` gives you testing, a local development server and dev + prod builds for React SPAs with a fast and easy to access toolchain. If you want a working no-frills framework for a prototype or if you're starting a larger SPA and think you'll eventually need to eject from CRA, then `react_scaffold` might be a good choice.
 
 <br />
 <hr />
@@ -20,7 +20,7 @@ Within an optional Docker container `create-treact-app` gives you testing, a loc
 
 ## **What do you need?**
 
-You can run `create-treact-app` 2 ways:
+You can run `react_scaffold` 2 ways:
 
 ### With Docker (recommended)
 
